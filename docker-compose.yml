@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  angular:
+    container_name: BWD_Website
+    build: BWD_Website
+    ports:
+    - 4200:4200
+    volumes:
+      - ./BWD_Website:/app
+volumes:
+  volume:
